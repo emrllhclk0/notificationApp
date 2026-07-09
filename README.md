@@ -1,39 +1,39 @@
-# Notification App
+# Bildirim Uygulaması (Notification App)
 
-A Flutter application designed to handle and send push notifications seamlessly using Firebase Cloud Messaging (FCM). 
+Firebase Cloud Messaging (FCM) kullanarak push bildirimlerini sorunsuz bir şekilde işlemek ve göndermek için tasarlanmış bir Flutter uygulaması.
 
-## 🚀 Features
-* **Firebase Integration:** Securely connected to Firebase services for real-time capabilities.
-* **Push Notifications:** Implements `fcm_service` and `notification_sender_service` for robust notification delivery.
-* **Authentication:** Integrated user login and registration flows.
-* **Cross-Platform:** Built with Flutter, supporting Android, iOS, Web, Windows, macOS, and Linux.
+## 🚀 Özellikler
+* **Firebase Entegrasyonu:** Gerçek zamanlı yetenekler için Firebase servislerine güvenli bağlantı.
+* **Push Bildirimleri:** Güçlü bildirim iletimi için `fcm_service` ve `notification_sender_service` yapılandırmaları.
+* **Kimlik Doğrulama:** Entegre kullanıcı giriş ve kayıt işlemleri.
+* **Çoklu Platform (Cross-Platform):** Flutter ile geliştirildi; Android, iOS, Web, Windows, macOS ve Linux destekler.
 
-## 🛠️ Prerequisites
-- Flutter SDK (latest stable version)
+## 🛠️ Gereksinimler
+- Flutter SDK (en son kararlı sürüm)
 - Dart SDK
-- Firebase account and configuration setup
+- Firebase hesabı ve yapılandırma ayarları
 
-## 📦 Installation & Setup
+## 📦 Kurulum & Başlangıç
 
-1. **Clone the repository:**
+1. **Depoyu klonlayın:**
    ```bash
    git clone https://github.com/emrllhclk0/notificationApp.git
    ```
-2. **Navigate to the project directory:**
+2. **Proje dizinine gidin:**
    ```bash
    cd notificationApp
    ```
-3. **Install dependencies:**
+3. **Bağımlılıkları yükleyin:**
    ```bash
    flutter pub get
    ```
-4. **Run the app:**
+4. **Uygulamayı çalıştırın:**
    ```bash
    flutter run
    ```
 
-## 🏗️ Architecture
-This project follows a clean architectural approach, separating UI components from business logic and services (e.g., Firebase Auth, FCM).
+## 🏗️ Mimari
+Bu proje temiz bir mimari yaklaşım izleyerek; UI (Kullanıcı Arayüzü) bileşenlerini, iş mantığını ve servisleri (örn. Firebase Auth, FCM) birbirinden ayırır.
 
-## 📄 License
-This project is open-source and available under the [MIT License](LICENSE).
+## 📄 Lisans
+Bu proje açık kaynak kodludur ve [MIT Lisansı](LICENSE) altında kullanılabilir.
