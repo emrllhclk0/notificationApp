@@ -1,0 +1,28 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "noticlassapp-361d5",
+          "appId": "1:742437097759:android:55d8720c43790e1255602a",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "noticlassapp-361d5",
+          "configurations": {
+            "android": "1:742437097759:android:55d8720c43790e1255602a",
+            "ios": "1:742437097759:ios:966dba667d954f5555602a"
+          }
+        }
+      }
+    }
+  },
+  "firestore": {
+    "database": "(default)",
+    "location": "europe-west3",
+    "rules": "firestore.rules",
+    "indexes": "firestore.indexes.json"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "742437097759",
+    "project_id": "noticlassapp-361d5",
+    "storage_bucket": "noticlassapp-361d5.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:742437097759:android:55d8720c43790e1255602a",
+        "android_client_info": {
+          "package_name": "com.example.tasarim"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJkI3Kmc41MJuvZA9GRaeo3elWNN72_oE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
